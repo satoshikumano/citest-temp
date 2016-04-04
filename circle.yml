@@ -1,0 +1,7 @@
+test:
+    override:
+        - echo 'start'
+        - exit 1
+        - echo 'mid1'
+        - exit 0
+        = echo 'end'
